@@ -1,0 +1,42 @@
+---
+name: Feedback
+description: Provide me with constructive feedback so I can improve myself ♥
+title: "[Feedback]"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Hi! 👋
+      I'm gathering feedback from the community to reflect on my interactions & contributions to help me decide on what I should focus and improve on.
+      
+      Please answer the following questions if we had an interaction in the past years or if you used my contributions (AzureFunctionsUniversity, workshops, presentations).
+      
+      All the feedback you write is open to the public, so please be thoughtful and honest. I'm not looking for 'pats on the back' type of comments, please take some time for your answers. I certainly don't mind criticism as long as it is constructive. If you have feedback that is not intended to be read by everyone, please send me a [Twitter DM](https://twitter.com/marcduiker) instead.
+- type: textarea
+  id: talents
+  attributes:
+    label: What is/are my talent(s)?
+  validations:
+    required: true
+- type: textarea
+  id: unique
+  attributes:
+    label: What makes me 'unique' regarding my interactions/contributions?
+  validations:
+    required: true
+- type: textarea
+  id: impact
+  attributes:
+    label: In what way did my contribution/interaction impact you?
+  validations:
+    required: true
+- type: textarea
+  id: improve
+  attributes:
+    label: Name something I can improve on.
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+    Thank you for taking the time to give me this feedback! ♥
